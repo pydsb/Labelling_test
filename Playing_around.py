@@ -15,6 +15,7 @@ from bokeh.models.widgets import DataTable, TableColumn
 from bokeh.palettes import Greys256
 from bokeh.plotting import figure, curdoc
 
+#yes
 Input_directory = Path('./Small_test')
 Output_directory = Path('./Output_labels.d')
 
