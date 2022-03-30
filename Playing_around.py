@@ -15,8 +15,8 @@ from bokeh.models.widgets import DataTable, TableColumn
 from bokeh.palettes import Greys256
 from bokeh.plotting import figure, curdoc
 
-Input_directory = Path('/mnt/d/Documents/Leeds Non-Sync/MyUbuntu_nonsync.d/Labelling.d/Input.d/Small_test')
-Output_directory = Path('/mnt/d/Documents/Leeds Non-Sync/MyUbuntu_nonsync.d/Labelling.d/Output_labels.d')
+Input_directory = Path('./Small_test')
+Output_directory = Path('./Output_labels.d')
 
 Output_filename = 'bokeh_testing.csv'
 Output_path = Output_directory.joinpath(Output_filename)
