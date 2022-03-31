@@ -1,0 +1,10 @@
+bokeh 
+access2thematrix
+spiepy
+pyspm
+pandas
+numpy
+pathlib
+matplotlib
+opencv-python
+scikit-image
