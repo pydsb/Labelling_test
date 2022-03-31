@@ -15,11 +15,9 @@ from bokeh.models.widgets import DataTable, TableColumn
 from bokeh.palettes import Greys256
 from bokeh.plotting import figure, curdoc
 
-Input_directory = Path('/mnt/d/Documents/Leeds Non-Sync/MyUbuntu_nonsync.d/Labelling.d/Input.d/Small_test')
-Output_directory = Path('/mnt/d/Documents/Leeds Non-Sync/MyUbuntu_nonsync.d/Labelling.d/Output_labels.d')
+Input_directory = Path(Small_test')
 
-Output_filename = 'bokeh_testing_again.csv'
-Output_path = Output_directory.joinpath(Output_filename)
+Output_filename = 'Output_labels.csv'
 show_table = True
 
 # Initialise the data lists
@@ -119,7 +117,7 @@ def End():
     # Set up and save pandas DataFrame
     Labels_data = pd.DataFrame({'Filenames': File_names, 'Labels': labels })
 
-    Labels_data.to_csv(Output_path)
+    Labels_data.to_csv(Output_filename)
     print('This is now finished')  
     sys.exit()  
 
